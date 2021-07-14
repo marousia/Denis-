@@ -16,7 +16,7 @@ a{color: black!important;text-decoration: none;}
 .cont{padding:55px 30px;}
 .container{display: none;}
 
-.dn ,hr ,
+.dn ,
 #carouselExampleIndicators ,
 .header__title_wrapper{display: none;}
 
@@ -40,7 +40,6 @@ header{
     justify-content: space-between;
     margin-bottom: 30px;
     text-align: left;
-    max-width: 315px;
     margin: auto;
 }
 .header__boot-img{
@@ -173,7 +172,13 @@ footer{
     .header__title_burger{display: none;}
     .header__title_name ,
     .header__title_wrapper{display:flex;}
-    .header__title{width: 100%;max-width: 930px;}
+    .header__title{
+        width: 100%;
+        max-width: 930px;
+        border-top: 1px solid grey;
+        height: 130px;
+        align-items: flex-end;
+    }
     .header__title_name{
         display: flex;
         justify-content: space-between;
@@ -185,14 +190,6 @@ footer{
         font-weight: normal;
     }
     .span{font-weight: 800;}
-    hr{
-        display: block;
-        width: 58%;
-        margin: 20px auto;
-    }
-
-    
-    
 
     #carouselExampleIndicators{
         display: block;
@@ -231,7 +228,7 @@ footer{
         
     }
 
-    .portfolio__block_svg768{display: block;}
+    .portfolio__block_svg768{display: block;width: 100%;}
     .portfolio__block_svg{display: none;}
 
 }

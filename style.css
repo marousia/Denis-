@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    
 }
 h1{font-size: 34px;}
 a{color: black!important;text-decoration: none;}
@@ -15,7 +16,7 @@ a{color: black!important;text-decoration: none;}
 .cont{padding:55px 30px;}
 .container{display: none;}
 
-.dn ,hr ,
+.dn ,
 #carouselExampleIndicators ,
 .header__title_wrapper{display: none;}
 
@@ -231,7 +232,7 @@ footer{
     }
 
 
-    .portfolio__block_svg768{display: block;}
+    .portfolio__block_svg768{display: block;width: 100%;}
     .portfolio__block_svg{display: none;}
 
 }

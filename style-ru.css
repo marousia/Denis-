@@ -51,7 +51,7 @@ header{
 
 .nav-link ,
  .navbar {padding: 0;}
-ul{width:88px;height: 150px;}
+ul{width: 100px;height: 150px;}
 .nav{
     display: flex;
     justify-content: space-around;
